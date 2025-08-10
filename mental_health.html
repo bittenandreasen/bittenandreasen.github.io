@@ -49,6 +49,49 @@
         }
 
         article {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        }
+
+        article header {
+        margin-bottom: 30px;
+        text-align: center;
+        }
+
+        article .date {
+        color: #a67c52; /* Samme varme brun tone som din header */
+        font-weight: 600;
+        margin-bottom: 8px;
+        display: block;
+        }
+
+        article section {
+        background-color: #fff7e6; /* Lys, varm off-white baggrund */
+        padding: 20px;
+        margin-bottom: 25px;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(166,124,82, 0.15); /* let skygge i varm tone */
+        border: 1px solid #d9cbb7; /* let varm kant */
+        }
+
+        article section:last-child {
+        margin-bottom: 0;
+        border-bottom: none;
+        }
+
+        article h2, article h3 {
+        color: #4b4b4b; /* Mørkegrå som på resten af siden */
+        margin-top: 0;
+        }
+
+        article p {
+        color: #333;
+        line-height: 1.6;
+        }
+
+        <!--
+        article {
             background-color: #fff;
             padding: 20px;
             margin-bottom: 30px;
@@ -61,6 +104,7 @@
             color: #777;
             margin-bottom: 5px;
         }
+        -->
 
         @media (max-width: 600px) {
             .container {
